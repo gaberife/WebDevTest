@@ -4,15 +4,32 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-h1, h2, h3{
-    color:#00f0cc;
-    font-family:fantasy;
-    text-align:center;
-}
-p{
+h1, h2, h3, h5, hr{
     color:#00f0cc;
     font-family:courier;
-    text-align:left;
+    text-align:center;
+    opacity: 1;
+
+}
+
+p{
+  font-family:courier;
+  text-align:left;
+  opacity: 1;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: maroon;
+  border: 2px solid white;
+  border-color: #00f0cc;
+  opacity: 0.6;
+}
+
+.transbox p, h2, h5 {
+  margin: 2%;
+  font-weight: bold;
+  color:#00f0cc
 }
 
 a{
@@ -98,7 +115,6 @@ a{
     font-size: 17px;
     font-family:courier;
     color:#00f0cc;
-    border: solid;
     border-color: #00f0cc;
 }
 
